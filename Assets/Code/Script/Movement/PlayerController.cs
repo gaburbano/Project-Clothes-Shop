@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayerMovement : MonoBehaviour
+public class PlayerController : MonoBehaviour
 {
     public float movementSpeed = 5f;
 
@@ -10,6 +10,8 @@ public class PlayerMovement : MonoBehaviour
     public Animator animator;
 
     private Vector2 movement;
+    
+    public Vector2 lastMotionVector;
     
     // Update is called once per frame
     void Update()
@@ -20,6 +22,11 @@ public class PlayerMovement : MonoBehaviour
         animator.SetFloat("Horizontal", movement.x);
         animator.SetFloat("Vertical", movement.y);
         animator.SetFloat("Speed", movement.sqrMagnitude);
+        
+        lastMotionVector = new Vector2(
+            movement.x,
+            movement.y
+        ).normalized;
     }
 
     void FixedUpdate()

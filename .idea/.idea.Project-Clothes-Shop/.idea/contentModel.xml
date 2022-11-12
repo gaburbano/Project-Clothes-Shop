@@ -7,12 +7,21 @@
       <e p="Assets" t="Include">
         <e p="Code" t="Include">
           <e p="Script" t="Include">
+            <e p="Interact" t="Include">
+              <e p="PlayerInteractController.cs" t="Include" />
+              <e p="ShopKeeperInteract.cs" t="Include" />
+            </e>
             <e p="Model" t="Include">
+              <e p="Game.cs" t="Include" />
+              <e p="Interactable.cs" t="Include" />
               <e p="Item.cs" t="Include" />
               <e p="Player.cs" t="Include" />
             </e>
             <e p="Movement" t="Include">
-              <e p="PlayerMovement.cs" t="Include" />
+              <e p="PlayerController.cs" t="Include" />
+            </e>
+            <e p="Save And Load" t="Include">
+              <e p="SaveAndLoadManager.cs" t="Include" />
             </e>
           </e>
         </e>
