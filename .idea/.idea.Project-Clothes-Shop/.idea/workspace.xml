@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="794b0f3a-e78a-4562-9bc0-e7e2f6ac6353" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.Project-Clothes-Shop/.idea/contentModel.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.Project-Clothes-Shop/.idea/indexLayout.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.Project-Clothes-Shop/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.Project-Clothes-Shop/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.Project-Clothes-Shop/riderModule.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Project-Clothes-Shop/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Project-Clothes-Shop/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Level/Scene/Game.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Level/Scene/Game.unity" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,14 +14,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Item.cs" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Item.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Code/Script/Model/Item.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="374">
-              <caret line="17" column="1" lean-forward="true" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+              <caret line="17" column="1" selection-end-line="17" selection-end-column="1" />
               <folding>
                 <marker date="1668197787623" expanded="true" signature="59:264" ph="{...}" />
                 <marker date="1668197787623" expanded="true" signature="170:262" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PlayerMovement.cs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Code/Script/Movement/PlayerMovement.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="88">
+              <caret line="6" column="35" selection-start-line="6" selection-start-column="35" selection-end-line="6" selection-end-column="35" />
+              <folding>
+                <marker date="1668223002020" expanded="false" signature="6:78" ph="..." />
+                <marker date="1668223002020" expanded="true" signature="123:529" ph="{...}" />
+                <marker date="1668223002020" expanded="true" signature="292:408" ph="{...}" />
+                <marker date="1668223002020" expanded="true" signature="432:527" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -37,12 +48,16 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Code/Script/Model/Item.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Code/Script/Model/Item.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Code/Script/Model/Player.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Code/Script/Movement/PlayerMovement.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Assets/Code/Script/Model/Item.cs" />
+        <option value="$PROJECT_DIR$/Assets/Code/Script/Model/Player.cs" />
+        <option value="$PROJECT_DIR$/Assets/Code/Script/Movement/PlayerMovement.cs" />
       </list>
     </option>
   </component>
@@ -141,12 +156,12 @@
       <option name="presentableId" value="Default" />
       <updated>1668197510447</updated>
       <workItem from="1668197519861" duration="1050000" />
-      <workItem from="1668218712656" duration="894000" />
+      <workItem from="1668218712656" duration="1802000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1944000" />
+    <option name="totallyTimeSpent" value="2852000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -159,6 +174,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="2551" y="-271" width="1100" height="1530" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="right" id="Errors In Solution" order="3" />
@@ -204,13 +220,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Code/Script/Model/Player.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="17" lean-forward="true" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+          <folding>
+            <marker date="1668221297472" expanded="true" signature="61:268" ph="{...}" />
+            <marker date="1668221297472" expanded="true" signature="174:266" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Code/Script/Model/Item.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
-          <caret line="17" column="1" lean-forward="true" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+          <caret line="17" column="1" selection-end-line="17" selection-end-column="1" />
           <folding>
             <marker date="1668197787623" expanded="true" signature="59:264" ph="{...}" />
             <marker date="1668197787623" expanded="true" signature="170:262" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Code/Script/Movement/PlayerMovement.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="6" column="35" selection-start-line="6" selection-start-column="35" selection-end-line="6" selection-end-column="35" />
+          <folding>
+            <marker date="1668223002020" expanded="false" signature="6:78" ph="..." />
+            <marker date="1668223002020" expanded="true" signature="123:529" ph="{...}" />
+            <marker date="1668223002020" expanded="true" signature="292:408" ph="{...}" />
+            <marker date="1668223002020" expanded="true" signature="432:527" ph="{...}" />
           </folding>
         </state>
       </provider>
