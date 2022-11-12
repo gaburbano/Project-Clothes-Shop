@@ -30,13 +30,13 @@
       <file leaf-file-name="PlayerMovement.cs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Code/Script/Movement/PlayerMovement.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
-              <caret line="6" column="35" selection-start-line="6" selection-start-column="35" selection-end-line="6" selection-end-column="35" />
+            <state relative-caret-position="484">
+              <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
               <folding>
-                <marker date="1668223002020" expanded="false" signature="6:78" ph="..." />
-                <marker date="1668223002020" expanded="true" signature="123:529" ph="{...}" />
-                <marker date="1668223002020" expanded="true" signature="292:408" ph="{...}" />
-                <marker date="1668223002020" expanded="true" signature="432:527" ph="{...}" />
+                <marker date="1668223128442" expanded="false" signature="6:78" ph="..." />
+                <marker date="1668223128442" expanded="true" signature="123:551" ph="{...}" />
+                <marker date="1668223128442" expanded="true" signature="292:408" ph="{...}" />
+                <marker date="1668223128442" expanded="true" signature="432:549" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -156,12 +156,12 @@
       <option name="presentableId" value="Default" />
       <updated>1668197510447</updated>
       <workItem from="1668197519861" duration="1050000" />
-      <workItem from="1668218712656" duration="1802000" />
+      <workItem from="1668218712656" duration="2523000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2852000" />
+    <option name="totallyTimeSpent" value="3573000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -174,7 +174,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="2551" y="-271" width="1100" height="1530" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="right" id="Errors In Solution" order="3" />
@@ -244,13 +243,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Code/Script/Movement/PlayerMovement.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="6" column="35" selection-start-line="6" selection-start-column="35" selection-end-line="6" selection-end-column="35" />
+        <state relative-caret-position="484">
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
           <folding>
-            <marker date="1668223002020" expanded="false" signature="6:78" ph="..." />
-            <marker date="1668223002020" expanded="true" signature="123:529" ph="{...}" />
-            <marker date="1668223002020" expanded="true" signature="292:408" ph="{...}" />
-            <marker date="1668223002020" expanded="true" signature="432:527" ph="{...}" />
+            <marker date="1668223128442" expanded="false" signature="6:78" ph="..." />
+            <marker date="1668223128442" expanded="true" signature="123:551" ph="{...}" />
+            <marker date="1668223128442" expanded="true" signature="292:408" ph="{...}" />
+            <marker date="1668223128442" expanded="true" signature="432:549" ph="{...}" />
           </folding>
         </state>
       </provider>
