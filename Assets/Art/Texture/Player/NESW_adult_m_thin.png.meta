@@ -1,43 +1,43 @@
 fileFormatVersion: 2
-guid: 49a6f764f7db05f40900bac6dd4d2d96
+guid: 263a400fcc6c7604384f724928242098
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 4286650091804034334
-    second: NESW_adult_f_thin_torsoA_armsA_0
+      213: -1340756244812654648
+    second: NESW_adult_m_thin_0
   - first:
-      213: -2713603903556989769
-    second: NESW_adult_f_thin_torsoA_armsA_1
+      213: -4444467938123905494
+    second: NESW_adult_m_thin_1
   - first:
-      213: 5315865598062950363
-    second: NESW_adult_f_thin_torsoA_armsA_2
+      213: -8950736184690842036
+    second: NESW_adult_m_thin_2
   - first:
-      213: -5626695127054825373
-    second: NESW_adult_f_thin_torsoA_armsA_3
+      213: -693860184871774006
+    second: NESW_adult_m_thin_3
   - first:
-      213: -1521450500491839252
-    second: NESW_adult_f_thin_torsoA_armsA_4
+      213: -1034942288646825530
+    second: NESW_adult_m_thin_4
   - first:
-      213: 1849277199119840461
-    second: NESW_adult_f_thin_torsoA_armsA_5
+      213: -4287829759565323608
+    second: NESW_adult_m_thin_5
   - first:
-      213: -6691809255098095030
-    second: NESW_adult_f_thin_torsoA_armsA_6
+      213: -8292434059085945224
+    second: NESW_adult_m_thin_6
   - first:
-      213: 2218933983018495114
-    second: NESW_adult_f_thin_torsoA_armsA_7
+      213: 5302157052141198222
+    second: NESW_adult_m_thin_7
   - first:
-      213: -437199411046427326
-    second: NESW_adult_f_thin_torsoA_armsA_8
+      213: 3782015909900444665
+    second: NESW_adult_m_thin_8
   - first:
-      213: -3297901059758274259
-    second: NESW_adult_f_thin_torsoA_armsA_9
+      213: -3666161619159418617
+    second: NESW_adult_m_thin_9
   - first:
-      213: 7257321585408005778
-    second: NESW_adult_f_thin_torsoA_armsA_10
+      213: -7214858915719993028
+    second: NESW_adult_m_thin_10
   - first:
-      213: -6559272846881663014
-    second: NESW_adult_f_thin_torsoA_armsA_11
+      213: 5706887033402653755
+    second: NESW_adult_m_thin_11
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -151,7 +151,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: NESW_adult_f_thin_torsoA_armsA_0
+      name: NESW_adult_m_thin_0
       rect:
         serializedVersion: 2
         x: 5
@@ -165,14 +165,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e15006efb8d3d7b30800000000000000
-      internalID: 4286650091804034334
+      spriteID: 8c71e898c4da46de0800000000000000
+      internalID: -1340756244812654648
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: NESW_adult_f_thin_torsoA_armsA_1
+      name: NESW_adult_m_thin_1
       rect:
         serializedVersion: 2
         x: 28
@@ -186,14 +186,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7bc4f5380a7575ad0800000000000000
-      internalID: -2713603903556989769
+      spriteID: a26038445f31252c0800000000000000
+      internalID: -4444467938123905494
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: NESW_adult_f_thin_torsoA_armsA_2
+      name: NESW_adult_m_thin_2
       rect:
         serializedVersion: 2
         x: 53
@@ -207,14 +207,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bd7f246c89fb5c940800000000000000
-      internalID: 5315865598062950363
+      spriteID: c466441fcd898c380800000000000000
+      internalID: -8950736184690842036
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: NESW_adult_f_thin_torsoA_armsA_3
+      name: NESW_adult_m_thin_3
       rect:
         serializedVersion: 2
         x: 7
@@ -228,14 +228,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 368c97ce796f9e1b0800000000000000
-      internalID: -5626695127054825373
+      spriteID: ac85eec86d9ee56f0800000000000000
+      internalID: -693860184871774006
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: NESW_adult_f_thin_torsoA_armsA_4
+      name: NESW_adult_m_thin_4
       rect:
         serializedVersion: 2
         x: 31
@@ -249,14 +249,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ce8f7dea4d8b2eae0800000000000000
-      internalID: -1521450500491839252
+      spriteID: 6c91d2ac87523a1f0800000000000000
+      internalID: -1034942288646825530
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: NESW_adult_f_thin_torsoA_armsA_5
+      name: NESW_adult_m_thin_5
       rect:
         serializedVersion: 2
         x: 55
@@ -270,14 +270,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dc474c090d3f9a910800000000000000
-      internalID: 1849277199119840461
+      spriteID: 8a2a2c33d819e74c0800000000000000
+      internalID: -4287829759565323608
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: NESW_adult_f_thin_torsoA_armsA_6
+      name: NESW_adult_m_thin_6
       rect:
         serializedVersion: 2
         x: 6
@@ -291,14 +291,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a4ae43defeae123a0800000000000000
-      internalID: -6691809255098095030
+      spriteID: 876e4d0982b5bec80800000000000000
+      internalID: -8292434059085945224
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: NESW_adult_f_thin_torsoA_armsA_7
+      name: NESW_adult_m_thin_7
       rect:
         serializedVersion: 2
         x: 28
@@ -312,14 +312,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a8c2cdd73bc3bce10800000000000000
-      internalID: 2218933983018495114
+      spriteID: e8b55343fbb059940800000000000000
+      internalID: 5302157052141198222
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: NESW_adult_f_thin_torsoA_armsA_8
+      name: NESW_adult_m_thin_8
       rect:
         serializedVersion: 2
         x: 53
@@ -333,14 +333,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2455198b371cee9f0800000000000000
-      internalID: -437199411046427326
+      spriteID: 9f3ed7c9e6b6c7430800000000000000
+      internalID: 3782015909900444665
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: NESW_adult_f_thin_torsoA_armsA_9
+      name: NESW_adult_m_thin_9
       rect:
         serializedVersion: 2
         x: 7
@@ -354,14 +354,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d2949bc85708b32d0800000000000000
-      internalID: -3297901059758274259
+      spriteID: 709f4d87e6d2f1dc0800000000000000
+      internalID: -3666161619159418617
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: NESW_adult_f_thin_torsoA_armsA_10
+      name: NESW_adult_m_thin_10
       rect:
         serializedVersion: 2
         x: 31
@@ -375,14 +375,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 296d40fe78f27b460800000000000000
-      internalID: 7257321585408005778
+      spriteID: c3923f7ca0cafdb90800000000000000
+      internalID: -7214858915719993028
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: NESW_adult_f_thin_torsoA_armsA_11
+      name: NESW_adult_m_thin_11
       rect:
         serializedVersion: 2
         x: 55
@@ -396,8 +396,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ad7d0c82918c8f4a0800000000000000
-      internalID: -6559272846881663014
+      spriteID: b3c7f3f358fe23f40800000000000000
+      internalID: 5706887033402653755
       vertices: []
       indices: 
       edges: []

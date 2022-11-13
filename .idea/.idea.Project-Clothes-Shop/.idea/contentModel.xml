@@ -11,6 +11,9 @@
               <e p="PlayerInteractController.cs" t="Include" />
               <e p="ShopKeeperInteract.cs" t="Include" />
             </e>
+            <e p="Manager" t="Include">
+              <e p="DateAndTimeManager.cs" t="Include" />
+            </e>
             <e p="Model" t="Include">
               <e p="DateAndTime.cs" t="Include" />
               <e p="Game.cs" t="Include" />

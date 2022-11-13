@@ -3,19 +3,19 @@ using UnityEngine;
 [System.Serializable]
 public class DateAndTime 
 {
-    int day;
+    public int day;
 	
-    int month;
+	public int month;
 	
-    int year;
+	public int year;
 	
-    int hour;
+	public int hour;
 	
-    int minutes;
+	public int minutes;
 	
-    int seconds;
+	public int seconds;
 	
-	int daySpent;
+	public int daySpent;
 
 	public DateAndTime(int day, int month, int year, int hour, int minutes, int seconds, int daySpent)
 	{
