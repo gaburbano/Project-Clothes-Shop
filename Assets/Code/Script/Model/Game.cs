@@ -4,4 +4,6 @@ using UnityEngine;
 public class Game
 {
     public string fileName;
+    
+    public DateAndTime dateAndTime;
 }
