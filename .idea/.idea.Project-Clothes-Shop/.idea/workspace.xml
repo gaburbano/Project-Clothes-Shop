@@ -41,7 +41,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PlayerClotheManager.cs" pinned="false" current-in-tab="true">
+      <file leaf-file-name="PlayerClotheManager.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Code/Script/Manager/PlayerClotheManager.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1349">
@@ -70,6 +70,11 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="EconomyManager.cs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Code/Script/Manager/EconomyManager.cs">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -92,6 +97,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Code/Script/Model/Game.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Code/Script/Model/DateAndTime.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Code/Scriptable Object/SO_BodyPart.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Code/Script/Manager/EconomyManager.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Code/Script/Model/Item.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Code/Script/Model/Interactable.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Code/Script/Interact/PlayerInteractController.cs" root0="FORCE_HIGHLIGHTING" />
@@ -306,12 +312,12 @@
       <workItem from="1668311931546" duration="836000" />
       <workItem from="1668312825434" duration="941000" />
       <workItem from="1668359652967" duration="1368000" />
-      <workItem from="1668408240019" duration="12659000" />
+      <workItem from="1668408240019" duration="13252000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27516000" />
+    <option name="totallyTimeSpent" value="28109000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -829,6 +835,9 @@
           </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Code/Script/Manager/EconomyManager.cs">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>

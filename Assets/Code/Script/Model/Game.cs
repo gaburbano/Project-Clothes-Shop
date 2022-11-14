@@ -6,4 +6,6 @@ public class Game
     public string fileName;
     
     public DateAndTime dateAndTime;
+
+    public double money;
 }
