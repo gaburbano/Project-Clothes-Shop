@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc78cfda63084aa4c96a103d9ae86c6f, type: 3}
+  m_Name: Robes Blue
+  m_EditorClassIdentifier: 
+  bodyPartName: Clothe Robes Blue
+  bodyPartAnimationID: 1
+  allBodyPartAnimations:
+  - {fileID: 7400000, guid: 2c0b6e9ceef91fd44b84a84453942f89, type: 2}
+  - {fileID: 7400000, guid: 728174f4fd891284da0ce10cf3a3cf0b, type: 2}
+  - {fileID: 7400000, guid: 7d1c833cacbcf06458456d125c0a94c9, type: 2}
+  - {fileID: 7400000, guid: 71bcfae52186b7d41a119884d57ed3cd, type: 2}
+  - {fileID: 7400000, guid: 48d50312e34bbc24aa6050064478372c, type: 2}

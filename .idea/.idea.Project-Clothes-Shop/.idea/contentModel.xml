@@ -13,6 +13,7 @@
             </e>
             <e p="Manager" t="Include">
               <e p="DateAndTimeManager.cs" t="Include" />
+              <e p="PlayerClotheManager.cs" t="Include" />
             </e>
             <e p="Model" t="Include">
               <e p="DateAndTime.cs" t="Include" />
@@ -27,6 +28,10 @@
             <e p="Save And Load" t="Include">
               <e p="SaveAndLoadManager.cs" t="Include" />
             </e>
+          </e>
+          <e p="Scriptable Object" t="Include">
+            <e p="SO_BodyPart.cs" t="Include" />
+            <e p="SO_CharacterBody.cs" t="Include" />
           </e>
         </e>
       </e>
