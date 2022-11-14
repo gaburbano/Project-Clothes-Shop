@@ -37,7 +37,7 @@ public class PlayerClotheManager : MonoBehaviour
         
         if (Input.GetKeyDown(KeyCode.J))
         {
-            UpdateBodyParts("Robes_Blue");
+            UpdateBodyParts("Robes_Violet");
         }
     }
 
