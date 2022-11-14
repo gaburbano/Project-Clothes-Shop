@@ -25,23 +25,52 @@ public class PlayerClotheManager : MonoBehaviour
         animatorOverrideController.GetOverrides(defaultAnimationClips);
 
         // Set body part animations
-        UpdateBodyParts("None");
+        UpdateAllBodyParts();
     }
 
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.H))
         {
-            UpdateBodyParts("Robes_Blue");
+            UpdateClothe("Clothe", "Robes_Blue");
         }
         
         if (Input.GetKeyDown(KeyCode.J))
         {
-            UpdateBodyParts("Robes_Violet");
+            UpdateClothe("Clothe", "Robes_Violet");
+        }
+        
+        if (Input.GetKeyDown(KeyCode.K))
+        {
+            UpdateClothe("Hat", "Stetson");
         }
     }
 
-    public void UpdateBodyParts(string partName)
+    public void UpdateClothe(string partType, string clotheName)
+    {
+        for (int stateIndex = 0; stateIndex < characterStates.Length; stateIndex++)
+        {
+            string state = characterStates[stateIndex];
+            for (int directionIndex = 0; directionIndex < characterDirections.Length; directionIndex++)
+            {
+                string direction = characterDirections[directionIndex];
+                
+                animationClip = Resources.Load<AnimationClip>(
+                    "Animation/Player/" + partType + "/" + clotheName + "/" + partType + "_" + clotheName + "_" + state +
+                    "_" + direction);
+
+                Debug.Log(partType + "_" + "None" + "_" + state + "_" + direction);
+
+                // Override default animation
+                defaultAnimationClips[partType + "_" + "None" + "_" + state + "_" + direction] = animationClip;
+            }
+        }
+        
+        // Apply updated animations
+        animatorOverrideController.ApplyOverrides(defaultAnimationClips);
+    }
+
+    public void UpdateAllBodyParts()
     {
         // Override default animation clips with character body parts
         for (int partIndex = 0; partIndex < bodyPartTypes.Length; partIndex++)
@@ -49,7 +78,7 @@ public class PlayerClotheManager : MonoBehaviour
             // Get current body part
             string partType = bodyPartTypes[partIndex];
             // Get current body part ID
-            string partID = characterBody.characterBodyParts[partIndex].bodyPart.bodyPartAnimationID.ToString();
+            // string partID = characterBody.characterBodyParts[partIndex].bodyPart.bodyPartAnimationID.ToString();
 
             for (int stateIndex = 0; stateIndex < characterStates.Length; stateIndex++)
             {
@@ -58,12 +87,7 @@ public class PlayerClotheManager : MonoBehaviour
                 {
                     string direction = characterDirections[directionIndex];
                     
-                    // Debug.Log("Animation/Player/" + partType + "/" + "Robes Blue/Clothe_Robes_Blue" + "_" + state + "_" + direction);
-                    
-                    // Get players animation from player body
-                    // ***NOTE: Unless Changed Here, Animation Naming Must Be: "[Type]_[Index]_[state]_[direction]" (Ex. Body_0_idle_down)
-                    // animationClip = Resources.Load<AnimationClip>("Animation/Player/" + partType + "/" + partType + "_" + partID + "_" + state + "_" + direction);
-                    animationClip = Resources.Load<AnimationClip>("Animation/Player/" + partType + "/" + partName + "/Clothe_" + partName + "_" + state + "_" + direction);
+                    animationClip = Resources.Load<AnimationClip>("Animation/Player/" + partType + "/" + "None" + "/Clothe_" + "None" + "_" + state + "_" + direction);
                     
                     Debug.Log(partType + "_" + "None" + "_" + state + "_" + direction);
                     

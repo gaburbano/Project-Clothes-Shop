@@ -10,12 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: dc78cfda63084aa4c96a103d9ae86c6f, type: 3}
-  m_Name: Robes Blue
+  m_Name: Stetson
   m_EditorClassIdentifier: 
-  bodyPartName: Clothe Robes Blue
+  bodyPartName: Hat Stetson
   bodyPartAnimationID: 1
   allBodyPartAnimations:
-  - {fileID: 7400000, guid: 2c0b6e9ceef91fd44b84a84453942f89, type: 2}
-  - {fileID: 7400000, guid: 728174f4fd891284da0ce10cf3a3cf0b, type: 2}
-  - {fileID: 7400000, guid: 7d1c833cacbcf06458456d125c0a94c9, type: 2}
-  - {fileID: 7400000, guid: 71bcfae52186b7d41a119884d57ed3cd, type: 2}
+  - {fileID: 7400000, guid: 300857d907c98ab429455d4c0d3e5787, type: 2}
+  - {fileID: 7400000, guid: be8f0a6b450ecbc46a87a384dd45454e, type: 2}
+  - {fileID: 7400000, guid: 517ccd60ec7241a41ae8812e44bfbd7c, type: 2}
+  - {fileID: 7400000, guid: a97499f8fa495454c9a5e9860944e503, type: 2}

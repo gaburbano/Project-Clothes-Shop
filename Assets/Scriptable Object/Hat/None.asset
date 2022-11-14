@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dc78cfda63084aa4c96a103d9ae86c6f, type: 3}
   m_Name: None
   m_EditorClassIdentifier: 
-  bodyPartName: Clothe None
+  bodyPartName: Hat None
   bodyPartAnimationID: 0
   allBodyPartAnimations: []

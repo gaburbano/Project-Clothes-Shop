@@ -2,9 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="794b0f3a-e78a-4562-9bc0-e7e2f6ac6353" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Resources/Animation/Player/Clothe/Robes_Blue/Clothe_Robes_Blue_Idle.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Resources/Animation/Player/Clothe/Robes_Blue/Clothe_Robes_Blue_Idle.anim.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Art/Resources/Animation/Player/Player.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Resources/Animation/Player/Player.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Texture/Player/NESW_adult_m_thin.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Texture/Player/NESW_adult_m_thin.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Texture/Player/priest-NESW.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Texture/Player/priest-NESW.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Texture/Player/robes-blue-NESW.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Texture/Player/robes-blue-NESW.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Texture/Player/robes-violet-NESW.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Texture/Player/robes-violet-NESW.png.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Code/Script/Manager/PlayerClotheManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/Script/Manager/PlayerClotheManager.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Level/Scene/Game.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Level/Scene/Game.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scriptable Object/Clothe/None.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scriptable Object/Clothe/None.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scriptable Object/Clothe/Robes Blue.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scriptable Object/Clothe/Robes Blue.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scriptable Object/Player Body.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scriptable Object/Player Body.asset" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -31,23 +44,27 @@
       <file leaf-file-name="PlayerClotheManager.cs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Code/Script/Manager/PlayerClotheManager.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="41" column="5" lean-forward="true" selection-start-line="41" selection-start-column="5" selection-end-line="41" selection-end-column="5" />
+            <state relative-caret-position="1349">
+              <caret line="97" column="9" lean-forward="true" selection-start-line="97" selection-start-column="9" selection-end-line="97" selection-end-column="9" />
               <folding>
-                <marker date="1668435310529" expanded="true" signature="6:52" ph="..." />
-                <marker date="1668435310529" expanded="true" signature="102:3897" ph="{...}" />
-                <marker date="1668435310529" expanded="true" signature="565:1070" ph="{...}" />
-                <marker date="1668435310529" expanded="true" signature="1089:1320" ph="{...}" />
-                <marker date="1668435310529" expanded="true" signature="1136:1199" ph="{...}" />
-                <marker date="1668435310529" expanded="true" signature="1249:1314" ph="{...}" />
-                <marker date="1668435310529" expanded="true" signature="1370:3319" ph="{...}" />
-                <marker date="1668435310529" expanded="true" signature="1525:3202" ph="{...}" />
-                <marker date="1668435310529" expanded="true" signature="1870:3192" ph="{...}" />
-                <marker date="1668435310529" expanded="true" signature="2052:3178" ph="{...}" />
-                <marker date="1668435310529" expanded="true" signature="2188:2692" ph="/* Debug.Log(&quot;Animation/Player/&quot; + partType + &quot;/&quot; + &quot;Robes Blue/Clothe_Robes_Blue&quot; + &quot;_&quot; + state + &quot;_&quot; + directio ... */" />
-                <marker date="1668435310529" expanded="true" signature="3411:3895" ph="{...}" />
-                <marker date="1668435310529" expanded="true" signature="3538:3889" ph="{...}" />
-                <marker date="1668435310529" expanded="true" signature="3638:3879" ph="{...}" />
+                <marker date="1668450557760" expanded="true" signature="6:52" ph="..." />
+                <marker date="1668450557760" expanded="true" signature="102:4529" ph="{...}" />
+                <marker date="1668450557760" expanded="true" signature="565:1067" ph="{...}" />
+                <marker date="1668450557760" expanded="true" signature="1086:1445" ph="{...}" />
+                <marker date="1668450557760" expanded="true" signature="1133:1203" ph="{...}" />
+                <marker date="1668450557760" expanded="true" signature="1253:1325" ph="{...}" />
+                <marker date="1668450557760" expanded="true" signature="1375:1439" ph="{...}" />
+                <marker date="1668450557760" expanded="true" signature="1511:2490" ph="{...}" />
+                <marker date="1668450557760" expanded="true" signature="1601:2365" ph="{...}" />
+                <marker date="1668450557760" expanded="true" signature="1771:2355" ph="{...}" />
+                <marker date="1668450557760" expanded="true" signature="2528:3951" ph="{...}" />
+                <marker date="1668450557760" expanded="true" signature="2683:3834" ph="{...}" />
+                <marker date="1668450557760" expanded="true" signature="2799:2942" ph="/* Get current body part ID ... */" />
+                <marker date="1668450557760" expanded="true" signature="3031:3824" ph="{...}" />
+                <marker date="1668450557760" expanded="true" signature="3213:3810" ph="{...}" />
+                <marker date="1668450557760" expanded="true" signature="4043:4527" ph="{...}" />
+                <marker date="1668450557760" expanded="true" signature="4170:4521" ph="{...}" />
+                <marker date="1668450557760" expanded="true" signature="4270:4511" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -289,12 +306,12 @@
       <workItem from="1668311931546" duration="836000" />
       <workItem from="1668312825434" duration="941000" />
       <workItem from="1668359652967" duration="1368000" />
-      <workItem from="1668408240019" duration="10267000" />
+      <workItem from="1668408240019" duration="12659000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25124000" />
+    <option name="totallyTimeSpent" value="27516000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -788,23 +805,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Code/Script/Manager/PlayerClotheManager.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="41" column="5" lean-forward="true" selection-start-line="41" selection-start-column="5" selection-end-line="41" selection-end-column="5" />
+        <state relative-caret-position="1349">
+          <caret line="97" column="9" lean-forward="true" selection-start-line="97" selection-start-column="9" selection-end-line="97" selection-end-column="9" />
           <folding>
-            <marker date="1668435310529" expanded="true" signature="6:52" ph="..." />
-            <marker date="1668435310529" expanded="true" signature="102:3897" ph="{...}" />
-            <marker date="1668435310529" expanded="true" signature="565:1070" ph="{...}" />
-            <marker date="1668435310529" expanded="true" signature="1089:1320" ph="{...}" />
-            <marker date="1668435310529" expanded="true" signature="1136:1199" ph="{...}" />
-            <marker date="1668435310529" expanded="true" signature="1249:1314" ph="{...}" />
-            <marker date="1668435310529" expanded="true" signature="1370:3319" ph="{...}" />
-            <marker date="1668435310529" expanded="true" signature="1525:3202" ph="{...}" />
-            <marker date="1668435310529" expanded="true" signature="1870:3192" ph="{...}" />
-            <marker date="1668435310529" expanded="true" signature="2052:3178" ph="{...}" />
-            <marker date="1668435310529" expanded="true" signature="2188:2692" ph="/* Debug.Log(&quot;Animation/Player/&quot; + partType + &quot;/&quot; + &quot;Robes Blue/Clothe_Robes_Blue&quot; + &quot;_&quot; + state + &quot;_&quot; + directio ... */" />
-            <marker date="1668435310529" expanded="true" signature="3411:3895" ph="{...}" />
-            <marker date="1668435310529" expanded="true" signature="3538:3889" ph="{...}" />
-            <marker date="1668435310529" expanded="true" signature="3638:3879" ph="{...}" />
+            <marker date="1668450557760" expanded="true" signature="6:52" ph="..." />
+            <marker date="1668450557760" expanded="true" signature="102:4529" ph="{...}" />
+            <marker date="1668450557760" expanded="true" signature="565:1067" ph="{...}" />
+            <marker date="1668450557760" expanded="true" signature="1086:1445" ph="{...}" />
+            <marker date="1668450557760" expanded="true" signature="1133:1203" ph="{...}" />
+            <marker date="1668450557760" expanded="true" signature="1253:1325" ph="{...}" />
+            <marker date="1668450557760" expanded="true" signature="1375:1439" ph="{...}" />
+            <marker date="1668450557760" expanded="true" signature="1511:2490" ph="{...}" />
+            <marker date="1668450557760" expanded="true" signature="1601:2365" ph="{...}" />
+            <marker date="1668450557760" expanded="true" signature="1771:2355" ph="{...}" />
+            <marker date="1668450557760" expanded="true" signature="2528:3951" ph="{...}" />
+            <marker date="1668450557760" expanded="true" signature="2683:3834" ph="{...}" />
+            <marker date="1668450557760" expanded="true" signature="2799:2942" ph="/* Get current body part ID ... */" />
+            <marker date="1668450557760" expanded="true" signature="3031:3824" ph="{...}" />
+            <marker date="1668450557760" expanded="true" signature="3213:3810" ph="{...}" />
+            <marker date="1668450557760" expanded="true" signature="4043:4527" ph="{...}" />
+            <marker date="1668450557760" expanded="true" signature="4170:4521" ph="{...}" />
+            <marker date="1668450557760" expanded="true" signature="4270:4511" ph="{...}" />
           </folding>
         </state>
       </provider>
