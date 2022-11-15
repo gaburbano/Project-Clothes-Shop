@@ -46,24 +46,6 @@ public class PlayerClotheManager : MonoBehaviour
         UpdateClothe("Hat", "Stetson");
     }
 
-    void Update()
-    {
-        if (Input.GetKeyDown(KeyCode.H))
-        {
-            UpdateClothe("Clothe", "Robes_Blue");
-        }
-        
-        if (Input.GetKeyDown(KeyCode.J))
-        {
-            UpdateClothe("Clothe", "Robes_Violet");
-        }
-        
-        if (Input.GetKeyDown(KeyCode.K))
-        {
-            UpdateClothe("Hat", "Stetson");
-        }
-    }
-
     public void UpdateClothe(string partType, string clotheName)
     {
         for (int stateIndex = 0; stateIndex < characterStates.Length; stateIndex++)
