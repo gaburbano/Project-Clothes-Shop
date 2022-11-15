@@ -10,12 +10,12 @@ public class DateAndTimeManager : MonoBehaviour
     
     public String finalDate;
     public String finalMonth;
-    public String finalTimeUI;
+    public String finalTime;
     public String finalTimePeriod;
     public int finalHour;
     
     public TMP_Text dateText;
-    public TMP_Text timePeriodText;
+    public TMP_Text timeText;
     
     public static DateAndTimeManager Instance { get; private set; }
     void Awake()
@@ -50,7 +50,7 @@ public class DateAndTimeManager : MonoBehaviour
     public void UpdateTime()
     {
         finalMonth = dateTime.ToString("MMMM");
-        finalTimeUI = dateTime.ToString("h:mm");
+        finalTime = dateTime.ToString("h:mm");
         finalTimePeriod = dateTime.ToString("tt");
 
         SaveAndLoadManager.Instance.game.dateAndTime.day = dateTime.Day;
@@ -60,7 +60,7 @@ public class DateAndTimeManager : MonoBehaviour
         SaveAndLoadManager.Instance.game.dateAndTime.minutes = dateTime.Minute;
         SaveAndLoadManager.Instance.game.dateAndTime.seconds = dateTime.Second;
 
-        finalDate = dateTime.ToString("m") + ", Day " + SaveAndLoadManager.Instance.game.dateAndTime.daySpent;
+        finalDate = dateTime.ToString("m");
         
         UpdateDateUI(); 
         UpdateTimePeriodUI();
@@ -73,6 +73,6 @@ public class DateAndTimeManager : MonoBehaviour
 	
     public void UpdateTimePeriodUI()
     {
-        timePeriodText.text = finalTimePeriod;
+        timeText.text = finalTime + " " + finalTimePeriod;
     }
 }
