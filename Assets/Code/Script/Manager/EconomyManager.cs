@@ -22,7 +22,7 @@ public class EconomyManager : MonoBehaviour
 
     void Start()
     {
-        initialNumber = SaveAndLoadManager.Instance.game.money;
+        AddMoney(SaveAndLoadManager.Instance.game.money);
     }
 
     void Update()
@@ -47,12 +47,7 @@ public class EconomyManager : MonoBehaviour
             moneyText.text = "$ " + initialNumber.ToString("n0");
         }
     }
-
-    public void DebugAddMoney()
-    {
-        AddMoney(10000);
-    }
-
+    
     // Money
     public void AddMoney(double money)
     {

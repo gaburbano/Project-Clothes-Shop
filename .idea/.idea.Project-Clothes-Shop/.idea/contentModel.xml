@@ -24,6 +24,7 @@
             <e p="Manager" t="Include">
               <e p="DateAndTimeManager.cs" t="Include" />
               <e p="EconomyManager.cs" t="Include" />
+              <e p="EquipmentManager.cs" t="Include" />
               <e p="GameSpeedManager.cs" t="Include" />
               <e p="PlayerClotheManager.cs" t="Include" />
             </e>

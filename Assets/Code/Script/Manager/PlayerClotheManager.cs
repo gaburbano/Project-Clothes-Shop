@@ -28,6 +28,24 @@ public class PlayerClotheManager : MonoBehaviour
         UpdateAllBodyParts();
     }
 
+    public void BuyRobesBlue()
+    {
+        EconomyManager.Instance.DeductMoney(25);
+        UpdateClothe("Clothe", "Robes_Blue");
+    }
+    
+    public void BuyRobesViolet()
+    {
+        EconomyManager.Instance.DeductMoney(30);
+        UpdateClothe("Clothe", "Robes_Violet");
+    }
+    
+    public void BuyStetson()
+    {
+        EconomyManager.Instance.DeductMoney(40);
+        UpdateClothe("Hat", "Stetson");
+    }
+
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.H))
@@ -58,9 +76,7 @@ public class PlayerClotheManager : MonoBehaviour
                 animationClip = Resources.Load<AnimationClip>(
                     "Animation/Player/" + partType + "/" + clotheName + "/" + partType + "_" + clotheName + "_" + state +
                     "_" + direction);
-
-                Debug.Log(partType + "_" + "None" + "_" + state + "_" + direction);
-
+                
                 // Override default animation
                 defaultAnimationClips[partType + "_" + "None" + "_" + state + "_" + direction] = animationClip;
             }
@@ -77,9 +93,7 @@ public class PlayerClotheManager : MonoBehaviour
         {
             // Get current body part
             string partType = bodyPartTypes[partIndex];
-            // Get current body part ID
-            // string partID = characterBody.characterBodyParts[partIndex].bodyPart.bodyPartAnimationID.ToString();
-
+            
             for (int stateIndex = 0; stateIndex < characterStates.Length; stateIndex++)
             {
                 string state = characterStates[stateIndex];
@@ -88,8 +102,6 @@ public class PlayerClotheManager : MonoBehaviour
                     string direction = characterDirections[directionIndex];
                     
                     animationClip = Resources.Load<AnimationClip>("Animation/Player/" + partType + "/" + "None" + "/Clothe_" + "None" + "_" + state + "_" + direction);
-                    
-                    Debug.Log(partType + "_" + "None" + "_" + state + "_" + direction);
                     
                     // Override default animation
                     defaultAnimationClips[partType + "_" + "None" + "_" + state + "_" + direction] = animationClip;
