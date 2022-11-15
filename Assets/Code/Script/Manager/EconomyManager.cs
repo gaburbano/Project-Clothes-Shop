@@ -20,11 +20,6 @@ public class EconomyManager : MonoBehaviour
         Instance = this;
     }
 
-    void Start()
-    {
-        AddMoney(SaveAndLoadManager.Instance.game.money);
-    }
-
     void Update()
     {
         if (SaveAndLoadManager.Instance.game.money != initialNumber)
@@ -52,11 +47,13 @@ public class EconomyManager : MonoBehaviour
     public void AddMoney(double money)
     {
         initialNumber = SaveAndLoadManager.Instance.game.money;
+        SaveAndLoadManager.Instance.game.money += money;
     }
 
     public void DeductMoney(double money)
     {
         initialNumber = SaveAndLoadManager.Instance.game.money;
+        SaveAndLoadManager.Instance.game.money -= money;
     }
 
     public bool isEnoughMoney(double money)
