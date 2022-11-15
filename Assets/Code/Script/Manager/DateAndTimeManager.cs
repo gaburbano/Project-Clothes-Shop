@@ -62,6 +62,8 @@ public class DateAndTimeManager : MonoBehaviour
 
         finalDate = dateTime.ToString("m");
         
+        dateTime = dateTime.AddSeconds ( 10 );
+        
         UpdateDateUI(); 
         UpdateTimePeriodUI();
     }

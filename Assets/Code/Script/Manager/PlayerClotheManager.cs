@@ -14,6 +14,10 @@ public class PlayerClotheManager : MonoBehaviour
     private AnimatorOverrideController animatorOverrideController;
     private AnimationClipOverrides defaultAnimationClips;
 
+    public Sprite robesBlue;
+    public Sprite robesViolet;
+    public Sprite hatStetson;
+
     private void Start()
     {
         // Set animator
@@ -32,18 +36,21 @@ public class PlayerClotheManager : MonoBehaviour
     {
         EconomyManager.Instance.DeductMoney(25);
         UpdateClothe("Clothe", "Robes_Blue");
+        EquipmentManager.Instance.Equip(robesBlue);
     }
     
     public void BuyRobesViolet()
     {
         EconomyManager.Instance.DeductMoney(30);
         UpdateClothe("Clothe", "Robes_Violet");
+        EquipmentManager.Instance.Equip(robesViolet);
     }
     
     public void BuyStetson()
     {
         EconomyManager.Instance.DeductMoney(40);
         UpdateClothe("Hat", "Stetson");
+        EquipmentManager.Instance.Equip(hatStetson);
     }
 
     public void UpdateClothe(string partType, string clotheName)

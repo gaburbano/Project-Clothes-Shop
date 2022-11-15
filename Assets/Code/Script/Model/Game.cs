@@ -9,7 +9,6 @@ public class Game
     public DateAndTime dateAndTime;
 
     public double money;
-
-    public int equipmentCount;
+    
     public List<Item> equipment;
 }
